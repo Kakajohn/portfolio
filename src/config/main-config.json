@@ -1,0 +1,29 @@
+{
+    "profile": [
+        {
+            "name": "George",
+            "lastname": "Kakazianis",
+            "contact": "gkakazianes@gmail.com",
+            "profession": "Frontend Developer",
+            "education": "Aristotle University of Thessaloniki",
+            "about": ""
+        }
+    ],
+    "client": [
+       {
+        "skill1":"javascript",
+        "skill2":"ReactREACT",
+        "skill3":"Redux",
+        "skill4":"CSS",
+        "skill5":"SCSS",
+        "skill6":"Bootstrap"   
+       }     
+    ],
+    "server":[
+        "Express.JS",
+        "Ajax",
+        "Node.JS",
+        "MongoDB",
+        ""
+    ]
+}

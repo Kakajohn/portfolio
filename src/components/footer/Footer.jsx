@@ -11,9 +11,9 @@ const Footer = () => {
       <a href="https://github.com/Kakajohn"><FaGithubSquare /></a>
       </div>
      </div>
-      You can contact us at
+     <p> You can contact us at</p>
       <a href='mailto:gkakazianes@gmail.com'>gkakazianes@gmail.com</a> 
-      by Gkakazianis ❤
+     <p> by Gkakazianis ❤</p>
     </footer>
   )
 }
