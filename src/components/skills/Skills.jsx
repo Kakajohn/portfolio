@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <>
-      <h1 className='text-center'><a className='skills'  onClick={handleStatus}>Skills</a></h1>
+      <h1 className='text-center'><button className='skills'  onClick={handleStatus}>Skills</button></h1>
       <div class={` ${show ? "grid-container" : "empty"}`}>
         <div class={` ${show ? "container__progressbars" : "empty"}`}>
 
