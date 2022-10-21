@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <>
-     <h1 className='m-1 p-1 text-center'><button className='skills'  onClick={contentStatus}>Welcome to George Kakaziani's portfolio.</button></h1>
+     <h1 className='m-1 p-1 text-center'><button className='skills'  onClick={contentStatus}>Hello and welcome to my portfolio.</button></h1>
      <Intro />
      <div className={`${content ? "see" : "hide"}`} id='cont'>
      <ProfilieCard />
