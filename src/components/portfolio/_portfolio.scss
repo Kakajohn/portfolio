@@ -9,3 +9,14 @@ body{
 .hide{
     display: none;
 }
+
+.skills{
+    color: #fff;
+    text-decoration: unset;
+    border: unset;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .skills:hover{
+    color: #fff;
+  }

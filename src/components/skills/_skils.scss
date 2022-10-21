@@ -71,31 +71,31 @@ $porcent-mongodb: 72;
     
     .shadow {
       &-html {
-        filter: drop-shadow(0 0 5px $color-html);
+        filter: drop-shadow(0 0 4px $color-html);
       }
       &-css {
-        filter: drop-shadow(0 0 5px $color-css);
+        filter: drop-shadow(0 0 4px $color-css);
       }
       &-scss {
-        filter: drop-shadow(0 0 5px $color-scss);
+        filter: drop-shadow(0 0 4px $color-scss);
       }
       &-js {
-        filter: drop-shadow(0 0 5px $color-js);
+        filter: drop-shadow(0 0 4px $color-js);
       }
       &-react {
-        filter: drop-shadow(0 0 5px $color-react);
+        filter: drop-shadow(0 0 4px $color-react);
       }
       &-node {
-        filter: drop-shadow(0 0 5px $color-node);
+        filter: drop-shadow(0 0 4px $color-node);
       }
       &-express {
-        filter: drop-shadow(0 0 5px $color-express);
+        filter: drop-shadow(0 0 4px $color-express);
       }
       &-ajax {
-        filter: drop-shadow(0 0 5px $color-ajax);
+        filter: drop-shadow(0 0 4px $color-ajax);
       }
       &-mongodb {
-        filter: drop-shadow(0 0 5px $color-mongodb);
+        filter: drop-shadow(0 0 4px $color-mongodb);
       }
     }
     
@@ -144,14 +144,7 @@ $porcent-mongodb: 72;
       }
     }
     
-    .skills{
-      color: #fff;
-      text-decoration: unset;
-      cursor: pointer;
-    }
-    .skills:hover{
-      color: #fff;
-    }
+  
 
 .empty{
   width: 0;
