@@ -11,7 +11,7 @@ export const ProfilieCard = () => {
      <div className="card p-4"> 
         <div className=" image d-flex flex-column justify-content-left align-items-left">
             <div className="container">
-            <img src={profilephot} height="150" width="150" className='rounded'/>
+            <img src={profilephot} height="150" width="150" className='rounded' alt='profile'/>
             </div>    
            {data.profile.map((item,index)=>{
            return( <>
