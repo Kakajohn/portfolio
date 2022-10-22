@@ -10,7 +10,7 @@
       "dpt": "Informatics",
       "visit": "Feel free to visit my Github and Linkedin accounts.",
       "linkedin": "",
-      "lithub": ""
+      "github": ""
     }
   ],
   "client": [
@@ -32,5 +32,15 @@
       "server4": "MongoDB",
       "server5": ""
     }
-  ]
+  ],
+  "metatags":
+    {
+      "title": "George Kakazianis",
+      "description": "George Kakazianis - Portfolio"
+    },
+    "social":{
+      "linkedin": "https://www.linkedin.com/in/george-kakazianis-24ba97224/",
+      "github": "https://github.com/Kakajohn",
+      "email": "gkakazianes@gmail.com"
+    }
 }

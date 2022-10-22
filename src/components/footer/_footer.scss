@@ -1,29 +1,35 @@
-.footer{
+.footer {
     text-align: center;
     padding: 5px;
     margin-top: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    a{
+
+    a {
         text-decoration: none;
         font-weight: 400;
         font-size: 18px;
         color: #fff;
     }
-    a:hover{
+
+    a:hover {
         color: #fff;
     }
-    p{
+
+    p {
         color: #fff;
     }
-    .git{
+
+    .git {
         fill: #0a0a0a;
     }
-    .linkedin{
+
+    .linkedin {
         fill: blue;
     }
-    svg{
+
+    svg {
         font-size: 28px;
     }
 }

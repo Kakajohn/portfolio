@@ -32,6 +32,7 @@ $porcent-mongodb: 72;
 .grid-container {
   display: grid;
   gap: 0px 48px;
+
   .container__progressbars {
     display: grid;
     justify-content: space-around;
@@ -44,6 +45,7 @@ $porcent-mongodb: 72;
     transform: translate(25%, 10px);
     position: relative;
   }
+
   .progressbar {
     position: relative;
     width: 170px;
@@ -51,6 +53,7 @@ $porcent-mongodb: 72;
     margin: 1em;
     transform: rotate(-90deg);
   }
+
   .progressbar__svg {
     position: relative;
     width: 100%;
@@ -73,27 +76,35 @@ $porcent-mongodb: 72;
     &-html {
       filter: drop-shadow(0 0 4px $color-html);
     }
+
     &-css {
       filter: drop-shadow(0 0 4px $color-css);
     }
+
     &-scss {
       filter: drop-shadow(0 0 4px $color-scss);
     }
+
     &-js {
       filter: drop-shadow(0 0 4px $color-js);
     }
+
     &-react {
       filter: drop-shadow(0 0 4px $color-react);
     }
+
     &-node {
       filter: drop-shadow(0 0 4px $color-node);
     }
+
     &-express {
       filter: drop-shadow(0 0 4px $color-express);
     }
+
     &-ajax {
       filter: drop-shadow(0 0 4px $color-ajax);
     }
+
     &-mongodb {
       filter: drop-shadow(0 0 4px $color-mongodb);
     }
@@ -103,27 +114,35 @@ $porcent-mongodb: 72;
     &-html {
       animation: anim_circle-html 1s ease-in-out forwards;
     }
+
     &-css {
       animation: anim_circle-css 1s ease-in-out forwards;
     }
+
     &-scss {
       animation: anim_circle-scss 1s ease-in-out forwards;
     }
+
     &-js {
       animation: anim_circle-js 1s ease-in-out forwards;
     }
+
     &-react {
       animation: anim_circle-react 1s ease-in-out forwards;
     }
+
     &-node {
       animation: anim_circle-node 1s ease-in-out forwards;
     }
+
     &-express {
       animation: anim_circle-express 1s ease-in-out forwards;
     }
+
     &-ajax {
       animation: anim_circle-ajax 1s ease-in-out forwards;
     }
+
     &-mongodb {
       animation: anim_circle-mongodb 1s ease-in-out forwards;
     }
@@ -139,6 +158,7 @@ $porcent-mongodb: 72;
     border-radius: 0.25em;
     transform: translate(-50%, -50%) rotate(90deg);
   }
+
   h1 {
     color: #fff;
   }
