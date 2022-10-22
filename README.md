@@ -7,7 +7,7 @@ A sample of a portfolio that contains the resume infos.
 
 ## Run this on a second terminal for **Tailwind**.
 
-### 'npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch'
+### ``npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch``
 
 Runs the app in the development mode.\
 Open [local](http://localhost:3000) to view it in your browser.

@@ -1,29 +1,36 @@
 {
-    "profile": [
-        {
-            "name": "George",
-            "lastname": "Kakazianis",
-            "contact": "gkakazianes@gmail.com",
-            "profession": "Frontend Developer",
-            "education": "Aristotle University of Thessaloniki",
-            "about": ""
-        }
-    ],
-    "client": [
-       {
-        "skill1":"javascript",
-        "skill2":"ReactREACT",
-        "skill3":"Redux",
-        "skill4":"CSS",
-        "skill5":"SCSS",
-        "skill6":"Bootstrap"   
-       }     
-    ],
-    "server":[
-        "Express.JS",
-        "Ajax",
-        "Node.JS",
-        "MongoDB",
-        ""
-    ]
+  "profile": [
+    {
+      "name": "George",
+      "lastname": "Kakazianis",
+      "contact": "gkakazianes@gmail.com",
+      "profession": "Frontend Developer",
+      "education": "Aristotle University of Thessaloniki",
+      "about": "",
+      "dpt": "Informatics",
+      "visit": "Feel free to visit my Github and Linkedin accounts.",
+      "linkedin": "",
+      "lithub": ""
+    }
+  ],
+  "client": [
+    {
+      "client1": "HTML",
+      "client2": "CSS",
+      "client3": "SCSS",
+      "client4": "BOOTSTRAP",
+      "client5": "JAVASCRIPT",
+      "client6": "REACT.JS",
+      "client7": "REDUX"
+    }
+  ],
+  "server": [
+    {
+      "server1": "Node.JS",
+      "server2": "Express.JS",
+      "server3": "Ajax",
+      "server4": "MongoDB",
+      "server5": ""
+    }
+  ]
 }
