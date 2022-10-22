@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import data from '../../config/main-config.json';
+import React from 'react';
 import './_skils.scss';
 import './_skillsbutton.scss';
 import Client from './Client';
