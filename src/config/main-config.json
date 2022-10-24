@@ -1,16 +1,23 @@
 {
   "profile": [{
-    "name": "George",
-    "lastname": "Kakazianis",
-    "contact": "gkakazianes@gmail.com",
-    "profession": "Frontend Developer",
-    "education": "Aristotle University of Thessaloniki",
-    "about": "",
-    "dpt": "Informatics",
-    "visit": "Feel free to visit my Github and Linkedin accounts.",
-    "linkedin": "",
-    "github": ""
-  }],
+      "info": "George Kakazianis"
+    },
+    {
+      "info": "Frontend Developer"
+    },
+    {
+      "info": "Aristotle University of Thessaloniki"
+    },
+    {
+      "info": "Department of Computer Science"
+    },
+    {
+      "info": "gkakazianes@gmail.com"
+    },
+    {
+      "info": "Feel free to visit my Github and Linkedin accounts."
+    }
+  ],
   "client": [{
       "lang": "HTML",
       "class": "circle-html shadow-html",
@@ -73,9 +80,9 @@
     "title": "George Kakazianis",
     "description": "George Kakazianis - Portfolio"
   },
-  "social": {
+  "social": [{
     "linkedin": "https://www.linkedin.com/in/george-kakazianis-24ba97224/",
     "github": "https://github.com/Kakajohn",
     "email": "gkakazianes@gmail.com"
-  }
+  }]
 }

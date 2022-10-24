@@ -15,7 +15,7 @@ setServer(prev => !prev);
 
 return (
 <>
-  <div className='text-center'>
+  <div className='text-center m-1'>
     <button className='see-skills text-center' onClick={setStatus}>
       <span className='circle' aria-hidden='true'>
         <span className='icon arrow'></span>

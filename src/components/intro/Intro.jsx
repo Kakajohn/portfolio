@@ -9,10 +9,10 @@ import './intro.css'
 const Intro = () => {
 return (
 <>
-  <div id='carouselExampleSlidesOnly' className='carousel slide' data-ride='carousel'>
+  <div id='carouselExampleSlidesOnly' className='carousel slide ' data-ride='carousel'>
     <div className='carousel-inner'>
       <div className='carousel-item active'>
-        <img className='d-block w-100' src={background} alt='First slide' />
+        <img className='d-block w-100' src={background}  alt='background' />
       </div>
     </div>
   </div>
