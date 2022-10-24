@@ -32,7 +32,7 @@ $porcent-mongodb: 72;
 .grid-container {
   display: grid;
   gap: 0px 48px;
-
+  
   .container__progressbars {
     display: grid;
     justify-content: space-around;
@@ -45,6 +45,8 @@ $porcent-mongodb: 72;
     transform: translate(25%, 10px);
     position: relative;
   }
+
+
 
   .progressbar {
     position: relative;

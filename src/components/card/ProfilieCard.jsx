@@ -3,13 +3,30 @@ import profilephot from '../../assets/img/sample.jpg';
 import './_profilecard.scss';
 import data from '../../config/main-config.json';
 import Social from '../social/Social';
-
 /**
  * @returns the profile card of the person that uses the template. 
  * Such as Name, Lastname, college etc. 
  */
 
 export const ProfilieCard = () => {
+
+  const URL = 'George-Kakazianis-CV.pdf';
+
+  const setDownload = () => {
+    // method to get PDF file
+    fetch(URL).then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'George-Kakazianis-CV.pdf';
+            alink.click();
+        })
+    })
+}
+
 return (
 <>
   <div className='container -m3-8 p-3 d-flex justify-content-left'>
@@ -26,6 +43,7 @@ return (
         );
         })}
       </div>
+      <button className='cv' onClick={setDownload}>Click to download my CV</button>
       <Social />
     </div>
   </div>
