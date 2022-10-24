@@ -1,0 +1,19 @@
+/* Make image center */
+/* body {
+  background-image: url('../../assets/img/backgroundphoto.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('../../assets/img/mobiletest.png');
+  }
+} */
+
+.carousel{
+  top: -32px !important;
+  position: relative !important;
+}

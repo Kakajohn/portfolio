@@ -1,19 +1,30 @@
 # Portfolio 
 
-A sample of a portfolio that contains the resume infos.
+A sample of a portfolio that contains the CV infos.
 
+## Authors
 
-### `npm start`
+- [@kakazianis](https://www.github.com/Kakajohn)
 
-## Run this on a second terminal for **Tailwind**.
+### Start the project
 
-### 'npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch'
+|install|start|tailwind (open a second terminal and run this)|
+|---|---|---|
+|``npm i``|``npm start``|``npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch``|
 
-Runs the app in the development mode.\
 Open [local](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Tech Stack
+
+**Client:** React, CSS, SCSS, TailwindCSS.
+
+## About the porject
+
+It is created with the Tech Stack as mentioned above. Also it uses a json file 
+(**main-config.json**) to load and display the perspective information. So it can be used
+as a template by loading all information dynamically.
 
 ### `npm test`
 

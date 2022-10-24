@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './_skils.scss';
+import './_skillsbutton.scss';
+import Client from './Client';
+import Server from './Server';
+
+/**
+ * @returns the client side and server side skills.
+ */
 
 const Skills = () => {
+ 
   return (
-    <div>Skills</div>
-  )
-}
+    <>
+    <h1 className='text-center text-white'>My skills</h1>
+    <Client />
+    <Server />
+    </>
+  );
+};
 
-export default Skills
+export default Skills;

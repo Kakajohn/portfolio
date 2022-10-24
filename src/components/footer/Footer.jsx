@@ -1,21 +1,30 @@
-import React from 'react'
-import {FaGithubSquare,FaLinkedin} from "react-icons/fa";
-import '../footer/_footer.scss'
+import React from 'react';
+import links from '../../config/main-config.json';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import '../footer/_footer.scss';
+
+/**
+ * @returns the footer of the project that contains the links for linkedin and github of the user. 
+ */
 
 const Footer = () => {
-  return (
-    <footer className='footer'>
-     <div className="container">
-      <div className="text-center">
-      <a href="https://www.linkedin.com/in/george-kakazianis-24ba97224/"><FaLinkedin /></a>
-      <a href="https://github.com/Kakajohn"><FaGithubSquare /></a>
-      </div>
-     </div>
-      You can contact us at
-      <a href='mailto:gkakazianes@gmail.com'>gkakazianes@gmail.com</a> 
-      by Gkakazianis ❤
-    </footer>
-  )
-}
+return (
+<footer className='footer'>
+  <div className='container'>
+    <div className='text-center'>
+      <a href={links.social.linkedin} target='_blank' rel='noreferrer'>
+        <FaLinkedin className='bg-white linkedin' />
+      </a>
+      <a href={links.social.github} target='_blank' rel='noreferrer'>
+        <FaGithubSquare className='bg-white git' />
+      </a>
+    </div>
+  </div>
+  <p> You can contact us at</p>
+  <a href={`mailto:${links.social.email}`} > {links.social.email} </a>
+  <p> by Gkakazianis ❤</p>
+</footer>
+);
+};
 
-export default Footer
+export default Footer;
