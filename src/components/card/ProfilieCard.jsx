@@ -2,14 +2,32 @@ import React from 'react';
 import profilephot from '../../assets/img/sample.jpg';
 import './_profilecard.scss';
 import data from '../../config/main-config.json';
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-
+import Social from '../social/Social';
 /**
+ * @param setDownload = () => {} is the function used for the download of the pdf file.
  * @returns the profile card of the person that uses the template. 
  * Such as Name, Lastname, college etc. 
  */
 
 export const ProfilieCard = () => {
+
+  const URL = 'George-Kakazianis-CV.pdf';
+
+  const setDownload = () => {
+    // method to get PDF file
+    fetch(URL).then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'George-Kakazianis-CV.pdf';
+            alink.click();
+        })
+    })
+}
+
 return (
 <>
   <div className='container -m3-8 p-3 d-flex justify-content-left'>
@@ -21,34 +39,13 @@ return (
         {data.profile.map((item, index) => {
         return (
         <div key={index}>
-          <span className='name mt-3'>Hello my name is {item.name} {item.lastname}</span>
-          <span className='idd m-1'>i am a {item.profession}</span>
-          <span className='idd'>
-            Graduated at {item.education} department of {item.dpt}.
-          </span>
-          <span className='m-1'>{item.about}</span>
-          <span className='idd m-1'>You can contact me at {item.contact}</span>
-        </div>
-        );
-        })}
-        {data.profile.map((accounts, id) => {
-        return (
-        <div key={id}>
-          <div className='text mt-3' key={id}>
-            <span>{accounts.visit}</span>
-          </div>
-          <div className='gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center'>
-            <a href={accounts.linkedin}>
-              <FaLinkedin />
-            </a>
-            <a href={accounts.github}>
-              <FaGithubSquare />
-            </a>
-          </div>
+          <span className='name mt-3 m-1'>{item.info}</span>
         </div>
         );
         })}
       </div>
+      <button className='cv' onClick={setDownload}>Click to download my CV</button>
+      <Social />
     </div>
   </div>
 </>

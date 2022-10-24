@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from '../../config/main-config.json';
 
 /**
- * @param setStatus () => {} on Click of the button it changes the status. On true it displays the client side skills and on false it hides them. 
+ * @param handleStatus () => {} on Click of the button it changes the status. On true it displays the client side skills and on false it hides them. 
  * @returns the client side skills.
  */
 
