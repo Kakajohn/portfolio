@@ -2,6 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import background from '../../assets/img/backgroundphoto.jpg';
 
+/**
+ * @returns the background top image.
+ */
+
 const Intro = () => {
 return (
 <>

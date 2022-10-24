@@ -1,6 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import meta from '../config/main-config.json';
+
+/**
+ * @returns the metatags of the project using the Helmet component.
+ */
+
 const MetaTags = () => {
   return (
     <Helmet>

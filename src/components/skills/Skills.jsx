@@ -4,6 +4,10 @@ import './_skillsbutton.scss';
 import Client from './Client';
 import Server from './Server';
 
+/**
+ * @returns the client side and server side skills.
+ */
+
 const Skills = () => {
  
   return (

@@ -8,6 +8,11 @@ import Footer from '../footer/Footer';
 import './_portfolio.scss';
 import './_portfolio.scss';
 
+/**
+ * @param contentStatus = () => {} updates the state on click of the button View. On false it hides the profile card and the skills and on true it displays them.
+ * @returns the final cut of the website.
+ */
+
 const Portfolio = () => {
   const [content, setContent] = useState(false);
 

@@ -4,6 +4,11 @@ import './_profilecard.scss';
 import data from '../../config/main-config.json';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
+/**
+ * @returns the profile card of the person that uses the template. 
+ * Such as Name, Lastname, college etc. 
+ */
+
 export const ProfilieCard = () => {
 return (
 <>
@@ -16,9 +21,7 @@ return (
         {data.profile.map((item, index) => {
         return (
         <div key={index}>
-          <span className='name mt-3'>
-            Hello my name is {item.name} {item.lastname}
-          </span>
+          <span className='name mt-3'>Hello my name is {item.name} {item.lastname}</span>
           <span className='idd m-1'>i am a {item.profession}</span>
           <span className='idd'>
             Graduated at {item.education} department of {item.dpt}.

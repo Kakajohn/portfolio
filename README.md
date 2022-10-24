@@ -3,7 +3,11 @@
 A sample of a portfolio that contains the resume infos.
 
 
-### `npm start`
+### Start the project
+
+|install|start|tailwind|
+|---|---|---|
+|npm i|npm start|npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch|
 
 ## Run this on a second terminal for **Tailwind**.
 

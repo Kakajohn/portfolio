@@ -3,6 +3,10 @@ import links from '../../config/main-config.json';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import '../footer/_footer.scss';
 
+/**
+ * @returns the footer of the project that contains the links for linkedin and github of the user. 
+ */
+
 const Footer = () => {
 return (
 <footer className='footer'>

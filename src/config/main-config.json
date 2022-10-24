@@ -1,46 +1,70 @@
 {
-  "profile": [
-    {
-      "name": "George",
-      "lastname": "Kakazianis",
-      "contact": "gkakazianes@gmail.com",
-      "profession": "Frontend Developer",
-      "education": "Aristotle University of Thessaloniki",
-      "about": "",
-      "dpt": "Informatics",
-      "visit": "Feel free to visit my Github and Linkedin accounts.",
-      "linkedin": "",
-      "github": ""
-    }
-  ],
-  "client": [
-    {
-      "client1": "HTML",
-      "client2": "CSS",
-      "client3": "SCSS",
-      "client4": "BOOTSTRAP",
-      "client5": "JAVASCRIPT",
-      "client6": "REACT.JS",
-      "client7": "REDUX"
-    }
-  ],
-  "server": [
-    {
-      "server1": "Node.JS",
-      "server2": "Express.JS",
-      "server3": "Ajax",
-      "server4": "MongoDB",
-      "server5": ""
-    }
-  ],
-  "metatags":
-    {
-      "title": "George Kakazianis",
-      "description": "George Kakazianis - Portfolio"
+  "profile": [{
+    "name": "George",
+    "lastname": "Kakazianis",
+    "contact": "gkakazianes@gmail.com",
+    "profession": "Frontend Developer",
+    "education": "Aristotle University of Thessaloniki",
+    "about": "",
+    "dpt": "Informatics",
+    "visit": "Feel free to visit my Github and Linkedin accounts.",
+    "linkedin": "",
+    "github": ""
+  }],
+  "client": [{
+      "lang": "HTML",
+      "class": "circle-html shadow-html"
     },
-    "social":{
-      "linkedin": "https://www.linkedin.com/in/george-kakazianis-24ba97224/",
-      "github": "https://github.com/Kakajohn",
-      "email": "gkakazianes@gmail.com"
+    {
+      "lang": "CSS",
+      "class": "circle-css shadow-css"
+    },
+    {
+      "lang": "SCSS",
+      "class": "circle-scss shadow-scss"
+    },
+    {
+      "lang": "BOOTSTRAP",
+      "class": "circle-css shadow-css"
+    },
+    {
+      "lang": "JAVASCRIPT",
+      "class": "circle-js shadow-js"
+    },
+    {
+      "lang": "REACT.JS",
+      "class": "circle-react shadow-react"
+    },
+    {
+      "lang": "REDUX",
+      "class": "circle-react shadow-react"
+
     }
+  ],
+  "server": [{
+      "lang": "Node.JS",
+      "class": "circle-node shadow-node"
+    },
+    {
+      "lang": "Express.JS",
+      "class": "circle-express shadow-express"
+    },
+    {
+      "lang": "Ajax",
+      "class": "circle-ajax shadow-ajax"
+    },
+    {
+      "lang": "MongoDB",
+      "class": "circle-mongodb shadow-mongodb"
+    }
+  ],
+  "metatags": {
+    "title": "George Kakazianis",
+    "description": "George Kakazianis - Portfolio"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/george-kakazianis-24ba97224/",
+    "github": "https://github.com/Kakajohn",
+    "email": "gkakazianes@gmail.com"
+  }
 }
