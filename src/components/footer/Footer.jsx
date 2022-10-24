@@ -4,24 +4,28 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import '../footer/_footer.scss';
 
 /**
- * @returns the footer of the project that contains the links for linkedin and github of the user. 
- */
+* @returns the footer of the project that contains the links for linkedin and github of the user.
+*/
 
 const Footer = () => {
 return (
 <footer className='footer'>
   <div className='container'>
-    <div className='text-center'>
-      <a href={links.social.linkedin} target='_blank' rel='noreferrer'>
+    {links.social.map((item,index)=>{
+    return <div key={index} className='text-center'>
+      <a href={item.linkedin} target='_blank' rel='noreferrer'>
         <FaLinkedin className='bg-white linkedin' />
       </a>
-      <a href={links.social.github} target='_blank' rel='noreferrer'>
+      <a href={item.github} target='_blank' rel='noreferrer'>
         <FaGithubSquare className='bg-white git' />
       </a>
     </div>
+    })}
   </div>
-  <p> You can contact us at</p>
-  <a href={`mailto:${links.social.email}`} > {links.social.email} </a>
+  <p className='m-1'> You can contact us at</p>
+  {links.social.map((item,index)=>{
+    return <a key={index} href={`mailto:${item.email}`}> {item.email} </a>
+  })}
   <p> by Gkakazianis ❤</p>
 </footer>
 );
