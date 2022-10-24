@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import background from '../../assets/img/backgroundphoto.jpg';
-
+import './intro.css'
 /**
  * @returns the background top image.
  */

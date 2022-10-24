@@ -1,5 +1,5 @@
 /* Make image center */
-body {
+/* body {
   background-image: url('../../assets/img/backgroundphoto.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -11,4 +11,9 @@ body {
   body {
     background-image: url('../../assets/img/mobiletest.png');
   }
+} */
+
+.carousel{
+  top: -32px !important;
+  position: relative !important;
 }

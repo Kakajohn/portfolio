@@ -12,16 +12,16 @@ return (
 <footer className='footer'>
   <div className='container'>
     <div className='text-center'>
-      <a href={links.social.linkedin}>
+      <a href={links.social.linkedin} target='_blank'>
         <FaLinkedin className='bg-white linkedin' />
       </a>
-      <a href={links.social.github}>
+      <a href={links.social.github} target='_blank'>
         <FaGithubSquare className='bg-white git' />
       </a>
     </div>
   </div>
   <p> You can contact us at</p>
-  <a href={`mailto:${links.social.email}`}> {links.social.email} </a>
+  <a href={`mailto:${links.social.email}`} > {links.social.email} </a>
   <p> by Gkakazianis ❤</p>
 </footer>
 );

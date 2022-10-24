@@ -22,22 +22,15 @@ const Portfolio = () => {
 
   return (
     <>
-      {/*
-  *ugly patch for viewing the content
-  //FIXME: change the header and button position.
-  */}
-      <MetaTags />
-      {/* <h1 className='m-1 p-1 text-center'>
-        <button className='skills'>Hello and welcome to my portfolio.</button>
-      </h1> */}
-      <div className='text-center'>
-        <button className='see-skills text-center' onClick={contentStatus}>
+      <div className='text-center central-btn'>
+        <button className='see-skills text-center ' onClick={contentStatus}>
           <span className='circle' aria-hidden='true'>
             <span className='icon arrow'></span>
           </span>
           <span className='button-text text-white'>View</span>
         </button>
       </div>
+      <MetaTags />
       <Intro />
       <div className={`${content ? 'see' : 'hide'}`} id='cont'>
         <ProfilieCard />
