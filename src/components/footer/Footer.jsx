@@ -12,10 +12,10 @@ return (
 <footer className='footer'>
   <div className='container'>
     <div className='text-center'>
-      <a href={links.social.linkedin} target='_blank'>
+      <a href={links.social.linkedin} target='_blank' rel='noreferrer'>
         <FaLinkedin className='bg-white linkedin' />
       </a>
-      <a href={links.social.github} target='_blank'>
+      <a href={links.social.github} target='_blank' rel='noreferrer'>
         <FaGithubSquare className='bg-white git' />
       </a>
     </div>
