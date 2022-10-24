@@ -4,6 +4,7 @@ import './_profilecard.scss';
 import data from '../../config/main-config.json';
 import Social from '../social/Social';
 /**
+ * @param setDownload = () => {} is the function used for the download of the pdf file.
  * @returns the profile card of the person that uses the template. 
  * Such as Name, Lastname, college etc. 
  */
