@@ -33,7 +33,7 @@ return (
             {' '}
           </circle>
         </svg>
-        <span className='progressbar__text shadow-node'>{se.lang}</span>
+        <span className={`progressbar__text ${se.class2}`}>{se.lang}</span>
       </div>
 
 

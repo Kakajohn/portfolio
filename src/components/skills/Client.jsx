@@ -33,7 +33,7 @@ return (
             {' '}
           </circle>
         </svg>
-        <span className='progressbar__text shadow-html'>{cl.lang}</span>
+        <span className={`progressbar__text ${cl.class2}`}>{cl.lang}</span>
       </div>
       );
       })}

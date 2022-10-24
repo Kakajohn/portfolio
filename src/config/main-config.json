@@ -13,49 +13,60 @@
   }],
   "client": [{
       "lang": "HTML",
-      "class": "circle-html shadow-html"
+      "class": "circle-html shadow-html",
+      "class2": "shadow-html"
     },
     {
       "lang": "CSS",
-      "class": "circle-css shadow-css"
+      "class": "circle-css shadow-css",
+      "class2": "shadow-css"
     },
     {
       "lang": "SCSS",
-      "class": "circle-scss shadow-scss"
+      "class": "circle-scss shadow-scss",
+      "class2": "shadow-scss"
     },
     {
       "lang": "BOOTSTRAP",
-      "class": "circle-css shadow-css"
+      "class": "circle-css shadow-css",
+      "class2": "shadow-css"
     },
     {
       "lang": "JAVASCRIPT",
-      "class": "circle-js shadow-js"
+      "class": "circle-js shadow-js",
+      "class2": "shadow-css"
     },
     {
       "lang": "REACT.JS",
-      "class": "circle-react shadow-react"
+      "class": "circle-react shadow-react",
+      "class2": "shadow-react"
     },
     {
       "lang": "REDUX",
-      "class": "circle-react shadow-react"
+      "class": "circle-react shadow-react",
+      "class2": "shadow-react"
 
     }
   ],
   "server": [{
       "lang": "Node.JS",
-      "class": "circle-node shadow-node"
+      "class": "circle-node shadow-node",
+      "class2": "shadow-node"
     },
     {
       "lang": "Express.JS",
-      "class": "circle-express shadow-express"
+      "class": "circle-express shadow-express",
+      "class2": "shadow-express"
     },
     {
       "lang": "Ajax",
-      "class": "circle-ajax shadow-ajax"
+      "class": "circle-ajax shadow-ajax",
+      "class2": "shadow-ajax"
     },
     {
       "lang": "MongoDB",
-      "class": "circle-mongodb shadow-mongodb"
+      "class": "circle-mongodb shadow-mongodb",
+      "class2": "shadow-mongodb"
     }
   ],
   "metatags": {
