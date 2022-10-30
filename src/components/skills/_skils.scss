@@ -28,7 +28,10 @@ $porcent-mongodb: 72;
 * {
   box-sizing: border-box;
 }
-
+/*
+*TODO: Upgrade mobile version of grid-template
+*
+*/
 .grid-container {
   display: grid;
   gap: 0px 48px;
